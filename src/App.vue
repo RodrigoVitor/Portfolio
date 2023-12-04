@@ -1,26 +1,61 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <Navbar v-if="innerWidth <= 830" />
+    <Aside />
+    <Start />
+    <About />
+    <Resume />
+    <Service />
+    <Portfolio/>
+    <Skill />
+    <ContactMe />
+    <Footer />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue'
+import Aside from './components/Aside.vue'
+import Start from './components/Start.vue'
+import About from './components/About.vue'
+import Resume from './components/Resume.vue'
+import Service from './components/Service.vue'
+import Portfolio from './components/Portfolio.vue'
+import Skill from './components/Skill.vue'
+import ContactMe from './components/ContactMe.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Navbar,  
+    Aside,
+    Start,
+    About,
+    Resume,
+    Service,
+    Portfolio,
+    Skill,
+    ContactMe,
+    Footer
+  },
+  data: function () {
+      return {
+          innerWidth: window.innerWidth,
+          showNav: false
+      }
+    },
+    methods: {
+      handleResize () {
+          this.innerWidth = window.innerWidth;
+      }
+    },
+    mounted() {
+     window.addEventListener('resize', this.handleResize);
+    },
+    beforeUnmount() {
+        window.removeEventListener('resize', this.handleResize);
+    }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
