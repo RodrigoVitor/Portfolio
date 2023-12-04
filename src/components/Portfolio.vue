@@ -7,7 +7,7 @@
             <span @click="changeLink('back')" :class="link == 'back' ? 'active' : ''">Back-end</span>
         </div>
         <div class="links-todos" v-if="link == 'todos'">
-            <span @click="openModal('Portfolio', 'Este é o meu portfólio, criado com o objetivo de destacar e compartilhar minha experiência, demonstrando meu conjunto de habilidades e proporcionando uma breve visão sobre quem eu sou.', ['HTML, ', 'CSS, ', 'VUE'], 'Dez 03, 2023', 'portfolio', true, 'https://github.com/Rodrigo-Vitor/portfolio', 'https://www.website.com/in/rodrigo-vitor-9a7354268/')">
+            <span @click="openModal('Portfolio', 'Este é o meu portfólio, criado com o objetivo de destacar e compartilhar minha experiência, demonstrando meu conjunto de habilidades e proporcionando uma breve visão sobre quem eu sou.', ['HTML, ', 'CSS, ', 'VUE'], 'Dez 03, 2023', 'portfolio', true, 'https://github.com/Rodrigo-Vitor/portfolio', 'https://rodrigovitor.netlify.app')">
                 <div class="links-todos-card">
                     <img src="../assets/portfolio.png" alt="Portfolio">
                     <div>
@@ -33,7 +33,7 @@
             </span>
         </div>
         <div class="links-todos" v-if="link == 'front'">
-            <span @click="openModal('Portfolio', 'Este é o meu portfólio, criado com o objetivo de destacar e compartilhar minha experiência, demonstrando meu conjunto de habilidades e proporcionando uma breve visão sobre quem eu sou.', ['HTML, ', 'CSS, ', 'VUE'], 'Dez 03, 2023', 'portfolio', true, 'https://github.com/Rodrigo-Vitor/portfolio', 'http://localhost:8080/#porfolio')">
+            <span @click="openModal('Portfolio', 'Este é o meu portfólio, criado com o objetivo de destacar e compartilhar minha experiência, demonstrando meu conjunto de habilidades e proporcionando uma breve visão sobre quem eu sou.', ['HTML, ', 'CSS, ', 'VUE'], 'Dez 03, 2023', 'portfolio', true, 'https://github.com/Rodrigo-Vitor/portfolio', 'https://rodrigovitor.netlify.app')">
                 <div class="links-todos-card">
                     <img src="../assets/portfolio.png" alt="Portfolio">
                     <div>

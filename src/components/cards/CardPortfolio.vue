@@ -116,8 +116,11 @@ export default {
 }
 
 @media screen and (max-width: 830px) {
+
     .cardPortfolio {
-        width: 90%;
+        width: 95%;
+        height: 400px;
+        overflow: scroll;
     }
     .content {
         grid-template-columns: auto;
