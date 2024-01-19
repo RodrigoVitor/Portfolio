@@ -15,7 +15,7 @@
                     </div>
                 </div>
             </span>
-            <span @click="openModal('Gerenciador de notas', 'Aplicativo de gerenciamento de notas onde os usuários podem se cadastrar, fazer login e criar, editar e excluir suas notas. As notas podem ser organizadas por categorias, permitindo que os usuários mantenham suas informações organizadas e acessíveis.', ['HTML, ', 'CSS, ', 'PHP, ', 'LARAVEL, ', 'MySql'], 'Nov 30, 2023', 'notes', true, 'https://github.com/Rodrigo-Vitor/Gerenciador-de-notas', 'https://gerenciador-de-notas-production.up.railway.app/')">
+            <span @click="openModal('Gerenciador de notas', 'Aplicativo de gerenciamento de notas onde os usuários podem se cadastrar, fazer login e criar, editar e excluir suas notas. As notas podem ser organizadas por categorias, permitindo que os usuários mantenham suas informações organizadas e acessíveis.', ['HTML, ', 'CSS, ', 'PHP, ', 'LARAVEL, ', 'MySql'], 'Nov 30, 2023', 'notes', true, 'https://github.com/Rodrigo-Vitor/Gerenciador-de-notas', null)">
                 <div class="links-todos-card">
                     <img src="../assets/notes.png" alt="Portfolio">
                     <div>
@@ -23,14 +23,14 @@
                     </div>
                 </div>
             </span>
-            <span @click="openModal('Vagas Devs', 'Plataforma web projetada para simplificar a busca e candidatura a oportunidades de emprego para programadores.', ['HTML, ', 'CSS, ', 'PHP, ', 'LARAVEL, ', 'MySql'], 'Nov 30, 2023', 'vagas', false, 'https://github.com/Rodrigo-Vitor/Vagas-Devs', null)">
+            <!-- <span @click="openModal('Vagas Devs', 'Plataforma web projetada para simplificar a busca e candidatura a oportunidades de emprego para programadores.', ['HTML, ', 'CSS, ', 'PHP, ', 'LARAVEL, ', 'MySql'], 'Nov 30, 2023', 'vagas', false, 'https://github.com/Rodrigo-Vitor/Vagas-Devs', null)">
                 <div class="links-todos-card">
                     <img src="../assets/vagas-dev.png" alt="Portfolio">
                     <div>
                         <p>Vagas Devs <span>Back end</span></p>
                     </div>
                 </div>
-            </span>
+            </span> -->
         </div>
         <div class="links-todos" v-if="link == 'front'">
             <span @click="openModal('Portfolio', 'Este é o meu portfólio, criado com o objetivo de destacar e compartilhar minha experiência, demonstrando meu conjunto de habilidades e proporcionando uma breve visão sobre quem eu sou.', ['HTML, ', 'CSS, ', 'VUE'], 'Dez 03, 2023', 'portfolio', true, 'https://github.com/Rodrigo-Vitor/portfolio', 'https://rodrigovitor.netlify.app')">
@@ -43,7 +43,7 @@
             </span>
         </div>
         <div class="links-todos" v-if="link == 'back'">
-            <span @click="openModal('Gerenciador de notas', 'Aplicativo de gerenciamento de notas onde os usuários podem se cadastrar, fazer login e criar, editar e excluir suas notas. As notas podem ser organizadas por categorias, permitindo que os usuários mantenham suas informações organizadas e acessíveis.', ['HTML, ', 'CSS, ', 'PHP, ', 'LARAVEL, ', 'MySql'], 'Nov 30, 2023', 'notes', true, 'https://github.com/Rodrigo-Vitor/Gerenciador-de-notas', 'https://gerenciador-de-notas-production.up.railway.app/')">
+            <span @click="openModal('Gerenciador de notas', 'Aplicativo de gerenciamento de notas onde os usuários podem se cadastrar, fazer login e criar, editar e excluir suas notas. As notas podem ser organizadas por categorias, permitindo que os usuários mantenham suas informações organizadas e acessíveis.', ['HTML, ', 'CSS, ', 'PHP, ', 'LARAVEL, ', 'MySql'], 'Nov 30, 2023', 'notes', true, 'https://github.com/Rodrigo-Vitor/Gerenciador-de-notas', null)">
                 <div class="links-todos-card">
                     <img src="../assets/notes.png" alt="Portfolio">
                     <div>
@@ -51,14 +51,14 @@
                     </div>
                 </div>
             </span>
-            <span @click="openModal('Vagas Devs', 'Plataforma web projetada para simplificar a busca e candidatura a oportunidades de emprego para programadores.', ['HTML, ', 'CSS, ', 'PHP, ', 'LARAVEL, ', 'MySql'], 'Nov 30, 2023', 'vagas', false, 'https://github.com/Rodrigo-Vitor/Vagas-Devs', null)">
+            <!-- <span @click="openModal('Vagas Devs', 'Plataforma web projetada para simplificar a busca e candidatura a oportunidades de emprego para programadores.', ['HTML, ', 'CSS, ', 'PHP, ', 'LARAVEL, ', 'MySql'], 'Nov 30, 2023', 'vagas', false, 'https://github.com/Rodrigo-Vitor/Vagas-Devs', null)">
                 <div class="links-todos-card">
                     <img src="../assets/vagas-dev.png" alt="Portfolio">
                     <div>
                         <p>Vagas Devs <span>Back end</span></p>
                     </div>
                 </div>
-            </span>
+            </span> -->
         </div>
         <CardPortfolio 
             :title="title" :info="info" :tecs="tecs" :data="data" :src="src" :finish="finish" :github="github" :site="website"

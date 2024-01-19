@@ -98,7 +98,7 @@
                 <div class="progress-container">
                     <div class="progress-name">
                         <span style="color: #F0340B">Figma</span>
-                        <span style="color: #fff">25%</span>
+                        <span style="color: #fff">35%</span>
                     </div>
                     <div class="progress-bar">
                         <div class="progress-fill" style="width: 25%;"></div>
