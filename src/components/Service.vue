@@ -2,10 +2,10 @@
     <div id="servicos">
         <h2>Serviços</h2>
         <div class="flex">
-            <CardService
+            <!-- <CardService
             @openModal="openModal('Web Design', ['Desenvolvo o layout da sua aplicação web.', 'Faço edição das imagens.', 'Crio logótipos de marcas', 'E muito mais...'])" 
                 title="Web Design"
-            />
+            /> -->
             <CardService 
                 @openModal="openModal('Front end', ['Crio landing pages', 'Desenvolvo páginas com designs variados', 'Manutenção de códigos', 'Crio a responsividade do seu site', 'Implementações de novas funcionalidades', 'E muito mais...'])" 
                 title="Front end"
