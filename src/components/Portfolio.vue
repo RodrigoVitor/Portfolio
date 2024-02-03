@@ -8,7 +8,7 @@
             <span @click="changeLink('figma')" :class="link == 'figma' ? 'active figma-link' : ''">Design Figma</span>
         </div>
         <div class="links-todos" v-if="link == 'todos'">
-            <span @click="openModal('Portfolio', 'Este é o meu portfólio, criado com o objetivo de destacar e compartilhar minha experiência, demonstrando meu conjunto de habilidades e proporcionando uma breve visão sobre quem eu sou.', ['HTML, ', 'CSS, ', 'VUE'], 'Dez 03, 2023', 'portfolio', true, 'https://github.com/Rodrigo-Vitor/portfolio', 'https://rodrigovitor.netlify.app', null)">
+            <span @click="openModal('Portfolio', 'Este é o meu portfólio, criado com o objetivo de destacar e compartilhar minha experiência, demonstrando meu conjunto de habilidades e proporcionando uma breve visão sobre quem eu sou.', ['HTML, ', 'CSS, ', 'VUE'], 'Dez 03, 2023', 'portfolio', true, 'https://github.com/RodrigoVitor/portfolio', 'https://rodrigodev.netlify.app/', null)">
                 <div class="links-todos-card">
                     <img src="../assets/portfolio.png" alt="Portfolio">
                     <div>
@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </span>
-            <span @click="openModal('Gerenciador de notas', 'Aplicativo de gerenciamento de notas onde os usuários podem se cadastrar, fazer login e criar, editar e excluir suas notas. As notas podem ser organizadas por categorias, permitindo que os usuários mantenham suas informações organizadas e acessíveis.', ['HTML, ', 'CSS, ', 'PHP, ', 'LARAVEL, ', 'MySql'], 'Nov 30, 2023', 'notes', true, 'https://github.com/Rodrigo-Vitor/Gerenciador-de-notas', null, null)">
+            <span @click="openModal('Gerenciador de notas', 'Aplicativo de gerenciamento de notas onde os usuários podem se cadastrar, fazer login e criar, editar e excluir suas notas. As notas podem ser organizadas por categorias, permitindo que os usuários mantenham suas informações organizadas e acessíveis.', ['HTML, ', 'CSS, ', 'PHP, ', 'LARAVEL, ', 'MySql'], 'Nov 30, 2023', 'notes', true, 'https://github.com/RodrigoVitor/Gerenciador-de-notas', null, null)">
                 <div class="links-todos-card">
                     <img src="../assets/notes.png" alt="Portfolio">
                     <div>
@@ -50,7 +50,7 @@
             </span> -->
         </div>
         <div class="links-todos" v-if="link == 'front'">
-            <span @click="openModal('Portfolio', 'Este é o meu portfólio, criado com o objetivo de destacar e compartilhar minha experiência, demonstrando meu conjunto de habilidades e proporcionando uma breve visão sobre quem eu sou.', ['HTML, ', 'CSS, ', 'VUE'], 'Dez 03, 2023', 'portfolio', true, 'https://github.com/Rodrigo-Vitor/portfolio', 'https://rodrigovitor.netlify.app', null)">
+            <span @click="openModal('Portfolio', 'Este é o meu portfólio, criado com o objetivo de destacar e compartilhar minha experiência, demonstrando meu conjunto de habilidades e proporcionando uma breve visão sobre quem eu sou.', ['HTML, ', 'CSS, ', 'VUE'], 'Dez 03, 2023', 'portfolio', true, 'https://github.com/RodrigoVitor/portfolio', 'https://rodrigodev.netlify.app/', null)">
                 <div class="links-todos-card">
                     <img src="../assets/portfolio.png" alt="Portfolio">
                     <div>
@@ -60,7 +60,7 @@
             </span>
         </div>
         <div class="links-todos" v-if="link == 'back'">
-            <span @click="openModal('Gerenciador de notas', 'Aplicativo de gerenciamento de notas onde os usuários podem se cadastrar, fazer login e criar, editar e excluir suas notas. As notas podem ser organizadas por categorias, permitindo que os usuários mantenham suas informações organizadas e acessíveis.', ['HTML, ', 'CSS, ', 'PHP, ', 'LARAVEL, ', 'MySql'], 'Nov 30, 2023', 'notes', true, 'https://github.com/Rodrigo-Vitor/Gerenciador-de-notas', null, null)">
+            <span @click="openModal('Gerenciador de notas', 'Aplicativo de gerenciamento de notas onde os usuários podem se cadastrar, fazer login e criar, editar e excluir suas notas. As notas podem ser organizadas por categorias, permitindo que os usuários mantenham suas informações organizadas e acessíveis.', ['HTML, ', 'CSS, ', 'PHP, ', 'LARAVEL, ', 'MySql'], 'Nov 30, 2023', 'notes', true, 'https://github.com/RodrigoVitor/Gerenciador-de-notas', null, null)">
                 <div class="links-todos-card">
                     <img src="../assets/notes.png" alt="Portfolio">
                     <div>
