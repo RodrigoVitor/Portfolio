@@ -232,6 +232,6 @@ div h2 {
     }
     .links-todos {
         grid-template-columns: auto;
-    }
+    } 
 }
 </style>
