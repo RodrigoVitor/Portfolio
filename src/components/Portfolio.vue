@@ -5,7 +5,7 @@
             <span @click="changeLink('todos')" :class="link == 'todos' ? 'active' : ''">Todos</span>
             <span @click="changeLink('front')" :class="link == 'front' ? 'active' : ''">Front-end</span>
             <span @click="changeLink('back')" :class="link == 'back' ? 'active' : ''">Back-end</span>
-            <span @click="changeLink('figma')" :class="link == 'figma' ? 'active figma-link' : ''">Design Figma</span>
+            <!-- <span @click="changeLink('figma')" :class="link == 'figma' ? 'active figma-link' : ''">Design Figma</span> -->
         </div>
         <div class="links-todos" v-if="link == 'todos'">
             <span @click="openModal('Portfolio', 'Este é o meu portfólio, criado com o objetivo de destacar e compartilhar minha experiência, demonstrando meu conjunto de habilidades e proporcionando uma breve visão sobre quem eu sou.', ['HTML, ', 'CSS, ', 'VUE'], 'Dez 03, 2023', 'portfolio', true, 'https://github.com/RodrigoVitor/portfolio', 'https://rodrigodev.netlify.app/', null)">
@@ -24,14 +24,14 @@
                     </div>
                 </div>
             </span>
-            <span @click="openModal('Emprego Srs', 'Plataforma de empregos para moradores de Santa Rita do Sapucai, MG', ['Figma'], '24/01/2024', 'empregosrs', true, 'https://www.figma.com/file/Q5EwmbYcKxbVFrB2xuVWkN/Emprego-Srs?type=design&node-id=0%3A1&mode=design&t=4EaBNn9MhIN0Yh1a-1', null, 'https://www.figma.com/file/Q5EwmbYcKxbVFrB2xuVWkN/Emprego-Srs?type=design&node-id=0%3A1&mode=design&t=4EaBNn9MhIN0Yh1a-1')">
+            <!-- <span @click="openModal('Emprego Srs', 'Plataforma de empregos para moradores de Santa Rita do Sapucai, MG', ['Figma'], '24/01/2024', 'empregosrs', true, 'https://www.figma.com/file/Q5EwmbYcKxbVFrB2xuVWkN/Emprego-Srs?type=design&node-id=0%3A1&mode=design&t=4EaBNn9MhIN0Yh1a-1', null, 'https://www.figma.com/file/Q5EwmbYcKxbVFrB2xuVWkN/Emprego-Srs?type=design&node-id=0%3A1&mode=design&t=4EaBNn9MhIN0Yh1a-1')">
                 <div class="links-todos-card">
                     <img src="../assets/empregosrs.png" alt="Portfolio">
                     <div>
                         <p>Emprego Srs <span>Figma</span></p>
                     </div>
                 </div>
-            </span>
+            </span> -->
             <span>
                 <div class="links-todos-card developing">
                     <img src="../assets/empregosrs-back.png" alt="Portfolio">

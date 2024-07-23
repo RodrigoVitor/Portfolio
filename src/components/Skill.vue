@@ -36,20 +36,30 @@
                 <div class="progress-container">
                     <div class="progress-name">
                         <span style="color: #F0340B">Vue</span>
-                        <span style="color: #fff">35%</span>
+                        <span style="color: #fff">25%</span>
                     </div>
                     <div class="progress-bar">
-                        <div class="progress-fill" style="width: 35%;"></div>
+                        <div class="progress-fill" style="width: 25%;"></div>
                     </div>
                 </div>
         
                 <div class="progress-container">
                     <div class="progress-name">
                         <span style="color: #F0340B">Typescript</span>
-                        <span style="color: #fff">10%</span>
+                        <span style="color: #fff">30%</span>
                     </div>
                     <div class="progress-bar">
-                        <div class="progress-fill" style="width: 10%;"></div>
+                        <div class="progress-fill" style="width: 30%;"></div>
+                    </div>
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-name">
+                        <span style="color: #F0340B">React</span>
+                        <span style="color: #fff">40%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 40%;"></div>
                     </div>
                 </div>
             </div>
