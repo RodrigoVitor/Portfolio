@@ -7,7 +7,7 @@
             <div class="content">
                 <img v-if="src == 'portfolio'" src="../../assets/portfolio.png" width="400" alt="Portfolio">
                 <img v-if="src == 'notes'" src="../../assets/notes.png" width="400" alt="Portfolio">
-                <img v-if="src == 'empregosrs'" src="../../assets/empregosrs.png" width="400" alt="Portfolio">
+                <img v-if="src == 'focus'" src="../../assets/focus.png" width="400" alt="Portfolio">
                 <div class="content-info">
                     <p class="content-info-title">Informações do projeto:</p>
                     <span class="content-info-desc">{{ info }}</span>
@@ -17,7 +17,7 @@
                     <p class="content-info-links"><span>Links: </span>
                         <a :href="github" target="_blank" class="src" v-show="figma == null"><ion-icon name="logo-github"></ion-icon></a>
                         <a :href="site" target="_blank" class="world" v-show="site !== null"><ion-icon name="globe-outline"></ion-icon></a>
-                        <a :href="figma" target="_blank" class="world" v-show="figma !== null"><ion-icon name="logo-figma"></ion-icon></a>
+                        <!-- <a :href="figma" target="_blank" class="world" v-show="figma !== null"><ion-icon name="logo-figma"></ion-icon></a> -->
                     </p>
                     <p v-if="!finish" class="content-info-status">Em desenvolvimento </p>
                    

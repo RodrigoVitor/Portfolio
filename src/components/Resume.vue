@@ -2,6 +2,15 @@
     <div id="resumo">
         <h2>Minhas experiências</h2>
         <div class="card">
+            <p class="date">Fev/2024 - Atual</p>
+            <img src="../assets/hc.png" alt="hotel crisal" width="400px"> <br>
+            <span>Recepcionista</span>
+            <p class="info">
+                Responsável pelo agendamento de reservas por e-mail, WhatsApp e telefone, pela emissão de notas fiscais e pela criação e manutenção de planilhas no Excel.
+            </p>
+            <p class="stacks"><span>Stacks:</span> Comunicação, Excel Básico </p>
+        </div>
+        <div class="card">
             <p class="date">Jun/2023 - Nov/2023</p>
             <img src="../assets/ig.png" alt=""> <br>
             <span>Desenvolvedor de back end</span>

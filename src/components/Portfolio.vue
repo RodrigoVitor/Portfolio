@@ -24,22 +24,22 @@
                     </div>
                 </div>
             </span>
-            <!-- <span @click="openModal('Emprego Srs', 'Plataforma de empregos para moradores de Santa Rita do Sapucai, MG', ['Figma'], '24/01/2024', 'empregosrs', true, 'https://www.figma.com/file/Q5EwmbYcKxbVFrB2xuVWkN/Emprego-Srs?type=design&node-id=0%3A1&mode=design&t=4EaBNn9MhIN0Yh1a-1', null, 'https://www.figma.com/file/Q5EwmbYcKxbVFrB2xuVWkN/Emprego-Srs?type=design&node-id=0%3A1&mode=design&t=4EaBNn9MhIN0Yh1a-1')">
+            <span @click="openModal('Focus', 'Website para lhe ajudar a ter foco, você conclui uma tarefa ganha xp e com esse xp adquiro recompensas que você mesmo escolhe', ['React, Typescript'], 'em desenvolvimento', 'focus', false ,'https://github.com/RodrigoVitor/Focus', null, null)">
                 <div class="links-todos-card">
-                    <img src="../assets/empregosrs.png" alt="Portfolio">
+                    <img src="../assets/focus.png" alt="FocusApp">
                     <div>
-                        <p>Emprego Srs <span>Figma</span></p>
+                        <p>Focus <span>Front-end</span></p>
                     </div>
                 </div>
-            </span> -->
-            <span>
+            </span>
+            <!-- <span>
                 <div class="links-todos-card developing">
                     <img src="../assets/empregosrs-back.png" alt="Portfolio">
                     <div>
                         <p style="cursor: default;">Emprego Srs - Em desenvolvimento <span style="cursor: default;">Back end</span></p>
                     </div>
                 </div>
-            </span>
+            </span> -->
             <!-- <span @click="openModal('Vagas Devs', 'Plataforma web projetada para simplificar a busca e candidatura a oportunidades de emprego para programadores.', ['HTML, ', 'CSS, ', 'PHP, ', 'LARAVEL, ', 'MySql'], 'Nov 30, 2023', 'vagas', false, 'https://github.com/Rodrigo-Vitor/Vagas-Devs', null)">
                 <div class="links-todos-card">
                     <img src="../assets/vagas-dev.png" alt="Portfolio">
@@ -58,6 +58,14 @@
                     </div>
                 </div>
             </span>
+            <span @click="openModal('Focus', 'Website para lhe ajudar a ter foco, você conclui uma tarefa ganha xp e com esse xp adquiro recompensas que você mesmo escolhe', ['React, Typescript'], 'em desenvolvimento', 'focus', false ,'https://github.com/RodrigoVitor/Focus', null, null)">
+                <div class="links-todos-card">
+                    <img src="../assets/focus.png" alt="FocusApp">
+                    <div>
+                        <p>Focus <span>Front-end</span></p>
+                    </div>
+                </div>
+            </span>
         </div>
         <div class="links-todos" v-if="link == 'back'">
             <span @click="openModal('Gerenciador de notas', 'Aplicativo de gerenciamento de notas onde os usuários podem se cadastrar, fazer login e criar, editar e excluir suas notas. As notas podem ser organizadas por categorias, permitindo que os usuários mantenham suas informações organizadas e acessíveis.', ['HTML, ', 'CSS, ', 'PHP, ', 'LARAVEL, ', 'MySql'], 'Nov 30, 2023', 'notes', true, 'https://github.com/RodrigoVitor/Gerenciador-de-notas', null, null)">
@@ -68,14 +76,7 @@
                     </div>
                 </div>
             </span>
-            <span>
-                <div class="links-todos-card developing">
-                    <img src="../assets/empregosrs-back.png" alt="Portfolio">
-                    <div>
-                        <p style="cursor: default;">Emprego Srs - Em desenvolvimento <span style="cursor: default;">Back end</span></p>
-                    </div>
-                </div>
-            </span>
+           
         </div>
         <div class="links-todos" v-if="link == 'figma'">
             <span @click="openModal('Emprego Srs', 'Plataforma de empregos para moradores de Santa Rita do Sapucai, MG', ['Figma'], '24/01/2024', 'empregosrs', true, 'https://www.figma.com/file/Q5EwmbYcKxbVFrB2xuVWkN/Emprego-Srs?type=design&node-id=0%3A1&mode=design&t=4EaBNn9MhIN0Yh1a-1', null, 'https://www.figma.com/file/Q5EwmbYcKxbVFrB2xuVWkN/Emprego-Srs?type=design&node-id=0%3A1&mode=design&t=4EaBNn9MhIN0Yh1a-1')">
