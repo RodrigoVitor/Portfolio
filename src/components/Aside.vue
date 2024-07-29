@@ -16,7 +16,7 @@
             </ul>
         </div>
         <div class="footer-icons">
-            <a href="https://www.linkedin.com/in/rodrigo-vitor-dev/" target="_blank" class="footer-icons-linkedin"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/rodrigo-vitor-8bb66b317/" target="_blank" class="footer-icons-linkedin"><ion-icon name="logo-linkedin"></ion-icon></a>
             <a href="https://github.com/RodrigoVitor" target="_blank" class="footer-icons-github"><ion-icon name="logo-github"></ion-icon></a>
         </div>
     </aside>
